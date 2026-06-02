@@ -1,0 +1,14 @@
+/* =============================================================
+   Lente Vivo — contacto.css
+   Estilos de la página de contacto.
+   Requiere: global.css cargado previamente.
+   ============================================================= */
+
+/* ── Alerta de éxito del formulario ──────────────────────── */
+.alert-exito {
+    display: none;
+}
+
+.alert-exito.visible {
+    display: block;
+}
