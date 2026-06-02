@@ -1,0 +1,13 @@
+/* =============================================================
+   Lente Vivo — paquetes.css
+   Estilos de la página de paquetes / tarifas.
+   Bootstrap cubre: table-striped, table-hover, table-dark, table-responsive.
+   Solo agrego énfasis en la fila destacada.
+   Requiere: global.css cargado previamente.
+   ============================================================= */
+
+/* ── Fila popular / recomendada ───────────────────────────── */
+.fila-popular td {
+  border-left: 3px solid var(--foto-accent);
+  font-weight: 600;
+}

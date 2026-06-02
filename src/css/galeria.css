@@ -1,0 +1,28 @@
+/* =============================================================
+   Lente Vivo — galeria.css
+   Estilos de la página de galería / servicios.
+   Requiere: global.css cargado previamente.
+   ============================================================= */
+
+/* ── Imagen de la card ────────────────────────────────────── */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+
+/*(global) maneja la elevación,.card-img-top (galeria) el desaturado inicial,
+ y .badge-categoria la etiqueta tipográfica./*
+
+/* Revelado de color al pasar el cursor sobre la card */
+.card:hover .card-img-top {
+  filter: grayscale(0%);
+}
+
+/* ── Badge de categoría ───────────────────────────────────── */
+.badge-categoria {
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
