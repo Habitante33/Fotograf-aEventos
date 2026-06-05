@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Cuerpo cámara -->
+  <rect x="2" y="13" width="44" height="30" rx="5" ry="5" fill="#1a1a1a"/>
+  <!-- Bump flash -->
+  <rect x="13" y="7" width="13" height="8" rx="3" ry="3" fill="#1a1a1a"/>
+  <!-- Lente externo dorado -->
+  <circle cx="24" cy="28" r="12" fill="#a0792a"/>
+  <!-- Lente negro -->
+  <circle cx="24" cy="28" r="8.2" fill="#1a1a1a"/>
+  <!-- Apertura dorada -->
+  <circle cx="24" cy="28" r="5" fill="#a0792a" opacity="0.9"/>
+  <!-- Centro negro -->
+  <circle cx="24" cy="28" r="2.5" fill="#1a1a1a"/>
+  <!-- Indicador rojo -->
+  <circle cx="40" cy="18" r="3" fill="#a0792a"/>
+</svg>

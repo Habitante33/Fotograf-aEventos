@@ -6,9 +6,9 @@
 
 /* ── Alerta de éxito del formulario ──────────────────────── */
 .alert-exito {
-    display: none;
+   display: none;
 }
 
 .alert-exito.visible {
-    display: block;
+   display: block;
 }

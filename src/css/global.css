@@ -8,13 +8,13 @@
 
 /* ── 2. Variables CSS ─────────────────────────────────────── */
 :root {
-  --foto-dark:    #ffffff; /* fondo principal (claro) */
-  --foto-mid:     #f5f5f7; /* superficies secundarias */
-  --foto-accent:  #c49a5d;   /* dorado suave */
-  --foto-muted:   #6b6b6b;   /* texto secundario */
+  --foto-dark:    #f8f7f4;   /* fondo principal: blanco cálido */
+  --foto-mid:     #eeecea;   /* fondo de cards y formularios */
+  --foto-accent:  #a0792a;   /* dorado oscuro (legible sobre claro) */
+  --foto-muted:   #5a5a5a;   /* texto secundario */
 
   /* Derivadas de acento */
-  --foto-accent-dark: color-mix(in srgb, var(--foto-accent) 85%, #000 15%);
+  --foto-accent-dark: color-mix(in srgb, var(--foto-accent) 80%, #000 20%);
 
   /* Tipografías */
   --font-display: 'Playfair Display', Georgia, serif;
@@ -25,7 +25,7 @@
 body {
   font-family: var(--font-body);
   background-color: var(--foto-dark);
-  color: #111111;
+  color: #1a1a1a;
 }
 
 h1,
@@ -33,6 +33,7 @@ h2,
 h3 {
   font-family: var(--font-display);
   font-weight: 700;
+  color: #111111;
 }
 
 /* ── 4. Navbar ────────────────────────────────────────────── */
@@ -40,15 +41,16 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 1030;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(13, 13, 13, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
 /* ── 5. Nav links ─────────────────────────────────────────── */
 .navbar-foto .nav-link {
-  color: #555555;
+  color: #444444;
   transition: color 0.2s ease;
 }
 
@@ -59,15 +61,15 @@ h3 {
 
 /* ── 6. Footer ────────────────────────────────────────────── */
 .footer-foto {
-  background-color: var(--foto-mid);
-  border-top: 1px solid #e6e6e6;
+  background-color: #efefed;
+  border-top: 1px solid #d8d6d0;
   color: var(--foto-muted);
 }
 
 /* ── 7. Botón principal ───────────────────────────────────── */
 .btn-foto {
   background-color: var(--foto-accent);
-  color: #000000;
+  color: #ffffff;
   border: none;
   font-family: var(--font-body);
   font-weight: 500;
@@ -78,7 +80,7 @@ h3 {
 .btn-foto:hover,
 .btn-foto:focus {
   background-color: var(--foto-accent-dark);
-  color: #000000;
+  color: #ffffff;
 }
 
 .btn-foto:active {
@@ -97,5 +99,20 @@ h3 {
 
 .card-hover:hover {
   transform: translateY(-5px);
-  box-shadow: 0 16px 40px rgba(2, 6, 23, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ── 10. Cards en modo claro ──────────────────────────────── */
+.card {
+  background-color: #ffffff !important;
+  border: 1px solid #e0deda !important;
+  color: #1a1a1a !important;
+}
+
+.card-title {
+  color: #111111 !important;
+}
+
+.card-text {
+  color: var(--foto-muted) !important;
 }

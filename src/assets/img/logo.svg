@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52">
+  <!-- Cámara: cuerpo -->
+  <rect x="2" y="14" width="44" height="30" rx="5" ry="5" fill="#1a1a1a"/>
+  <!-- Flash bump -->
+  <rect x="12" y="9" width="14" height="7" rx="3" ry="3" fill="#1a1a1a"/>
+  <!-- Lente círculo externo -->
+  <circle cx="24" cy="29" r="11" fill="#a0792a"/>
+  <!-- Lente círculo interno -->
+  <circle cx="24" cy="29" r="7.5" fill="#1a1a1a"/>
+  <!-- Apertura (aspas) -->
+  <circle cx="24" cy="29" r="4.5" fill="#a0792a" opacity="0.85"/>
+  <circle cx="24" cy="29" r="2.2" fill="#1a1a1a"/>
+  <!-- Pequeño indicador -->
+  <circle cx="38" cy="18" r="2.5" fill="#a0792a"/>
+
+  <!-- Texto LENTE VIVO -->
+  <text x="56" y="24"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="18"
+    font-weight="700"
+    fill="#1a1a1a"
+    letter-spacing="0.5">Lente</text>
+  <text x="56" y="44"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="18"
+    font-weight="700"
+    fill="#a0792a"
+    letter-spacing="0.5">Vivo</text>
+</svg>
